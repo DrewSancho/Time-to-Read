@@ -1,0 +1,46 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.header {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.headerpic {
+    height: 300px;
+    background-image: url("../../images/reading-time.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.book {
+    position: absolute;
+    top: -120px;
+    left: -35px;
+}
+
+.logo {
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.main {
+    font-family:'Open Sans';
+    margin: 0 auto;
+    width: 66%;
+    line-height: 40px;
+    position: relative;
+}
+
+.time-to-read {
+    position: absolute;
+    top: -65px;
+    left: 65px;
+    font-size: 14px;
+    color: #CCC;
+    line-height: normal;
+}
